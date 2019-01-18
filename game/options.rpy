@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Death Paradox")
+define config.name = _("DEATH PARADOX")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -20,16 +20,22 @@ define config.name = _("Death Paradox")
 
 define gui.show_name = True
 
+define gui.text_font = "fonts/manrope-regular.otf"
+define gui.interface_text_font = "fonts/Coves Bold.otf"
+define gui.name_text_font = "fonts/Arkhip_font.otf"
+define gui.name_text_kerning = 1
+
 
 ## The version of the game.
 
-define config.version = "1.0"
+define config.version = "0.1"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+
 """)
 
 

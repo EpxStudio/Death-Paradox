@@ -1,11 +1,11 @@
 screen calendar_screen(date, location):
     add "section_bg.png" xalign 1.0 yalign 0.0
     vbox:
-        xalign 0.5
+        xalign 0.25
         yalign 0.5
-        text date xalign 0.5 color '#ffffff'
+        text date xalign 0 color '#ffffff' font 'fonts/Anurati-Regular.otf' kerning 10
         null height 20
-        text location xalign 0.5 color '#ffffff'
+        text location xalign 0 color '#ffffff' font 'fonts/Coves Bold.otf'
 
 label Calendar(date, location):
     show screen calendar_screen(date, location)
