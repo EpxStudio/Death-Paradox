@@ -14,7 +14,6 @@ define bartender = Character("BARTENDER")
 
 label start:
     scene bg room
-    show eileen happy
     
     call Calendar("TUESDAY", "TOKYO", "TEN YEARS AGO")
 
